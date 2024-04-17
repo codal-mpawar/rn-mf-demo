@@ -31,6 +31,10 @@ jest.mock('@callstack/repack/client', () => ({
         const shoppingMock = require('../booking/mocks/federated');
         return Promise.resolve(shoppingMock.default(module));
       }
+      if (container === 'chat') {
+        const chatMock = require('../chat/mocks/federated');
+        return Promise.resolve(chatMock.default(module));
+      }
       if (container === 'news') {
         switch (module) {
           case './App':

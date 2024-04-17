@@ -101,9 +101,7 @@ const HomeScreen = ({navigation}: Props) => {
         <Text variant="titleLarge" style={styles.headerTitle}>
           New Products
         </Text>
-        <Button mode="contained-tonal" onPress={() => {}}>
-          See All
-        </Button>
+        <Button mode="contained-tonal">See All</Button>
       </View>
       <FlatList
         horizontal

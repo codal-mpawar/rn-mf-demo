@@ -4,7 +4,7 @@
   "outputDirectory": "public",
   "rewrites": [
     {
-      "source": "/(host|booking|shopping|dashboard)",
+      "source": "/(host|booking|shopping|dashboard|chat)",
       "destination": "api/index.js"
     }
   ],

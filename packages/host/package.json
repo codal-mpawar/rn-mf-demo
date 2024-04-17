@@ -81,6 +81,11 @@
       "name": "news",
       "type": "external",
       "url": "https://github.com/callstack/news-mini-app-showcase"
+    },
+    {
+      "name": "chat",
+      "type": "external",
+      "url": "https://github.com/callstack/news-mini-app-showcase"
     }
   ],
   "rnx-kit": {

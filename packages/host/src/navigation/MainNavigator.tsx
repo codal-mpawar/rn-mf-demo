@@ -5,6 +5,7 @@ import TabsNavigator from './TabsNavigator';
 import NewsScreen from '../screens/NewsScreen';
 import ShoppingScreen from '../screens/ShoppingScreen';
 import DashboardScreen from '../screens/DashboardScreen';
+import ChatScreen from '../screens/ChatScreen';
 
 export type MainStackParamList = {
   Tabs: undefined;
@@ -12,6 +13,7 @@ export type MainStackParamList = {
   Shopping: undefined;
   News: undefined;
   Dashboard: undefined;
+  ChatScreen: undefined;
 };
 
 const Main = createNativeStackNavigator<MainStackParamList>();
@@ -27,6 +29,7 @@ const MainNavigator = () => {
       <Main.Screen name="Shopping" component={ShoppingScreen} />
       <Main.Screen name="News" component={NewsScreen} />
       <Main.Screen name="Dashboard" component={DashboardScreen} />
+      <Main.Screen name="ChatScreen" component={ChatScreen} />
     </Main.Navigator>
   );
 };
